@@ -1,5 +1,5 @@
-const baseUrl = 'https://irepoter-v3.herokuapp.com/';
-const signupUrl = `${baseUrl}api/v2/auth/signup`;
+const url = 'https://irepoter-v3.herokuapp.com/api/v2/auth/signup';
+// const url = 'https://localhost:5000/api/v2/auth/signup';
 
 
 // Sign Up
@@ -25,16 +25,13 @@ const signUp = document.getElementById('signup').addEventListener('click', async
         phoneNumber: phonenumber
     }
 
-    fetch(signupUrl, {
+    fetch(url, {
       method: 'POST',
-      headers: {"Content-type":"application/json" ,
-                "Accept":"application/json",
-                "Access-Control-Allow-Origin": "*",},
-      body: JSON.stringify(
-            formData)
+      headers: {"Content-type":"application/json"},
+      body: JSON.stringify(formData)
     })
-    .then(response => response.json().then(res => ({status_code: response.status, body:res})
-    ))
+    .then(response => response.json()
+	.then(res => ({status_code: response.status, body:res}))
     .then(data => {
        if(data.status_code == 201){
         window.localStorage.setItem('user_token', data.body.token);
