@@ -5,15 +5,15 @@ const url = 'https://irepoter-v3.herokuapp.com/api/v2/auth/signup';
 // Sign Up
 const signUp = document.getElementById('signup').addEventListener('click', async(event) => {
     event.preventDefault();
-    username = document.getElementById("username").value
-    firstname = document.getElementById("firstname").value
-    lastname = document.getElementById("lastname").value
-    othernames = document.getElementById("othernames").value
-    password = document.getElementById("password").value
-    email = document.getElementById("email").value
-    phonenumber = document.getElementById("phonenumber").value
+    let username = document.getElementById("username").value
+    let firstname = document.getElementById("firstname").value
+    let lastname = document.getElementById("lastname").value
+    let othernames = document.getElementById("othernames").value
+    let password = document.getElementById("password").value
+    let email = document.getElementById("email").value
+    let phonenumber = document.getElementById("phonenumber").value
 
-    formData = {
+    let formData = {
         username: username,
         firstname: firstname,
         lastname: lastname,
