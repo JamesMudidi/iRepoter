@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>iReporter | Interventions</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+
+	<div class="header">
+		<h1 align="center" style="h1">iReporter</h1>
+		<div class="topnav" id="myTopnav">
+			<a href="home.html">Home</a>
+			<a href="redflag.html">RedFlag</a>
+			<a href="interventions.html" class="active">Interventions</a>
+			<a href="profile.html">Profile</a>
+			<a href="index.html">Logout</a>
+			<a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</div>
+
+	<div class="page">
+		<div class="main">
+			<h2>Interventions</h2>
+			<p>Welcome to iReporter</p>
+			<p>
+				Corruption is a huge bane to development in Africa.
+				African countries must develop novel and localised solutions that will curb this menace,
+				hence the birth of iReporter. iReporter enables any/every citizen to bring any form of
+				corruption to the notice of appropriate authorities and the general public.
+				Users can also report on things that need government intervention
+			</p>
+		</div>
+
+		<div class="right">
+			<div class="form">
+			<div class="info">How can we help?</div>
+				<form class="login-form">
+					<input type="text" placeholder="Title" required=""/>
+					<input type="text" placeholder="Location" required=""/>
+					<input type="text" placeholder="Comment" required=""/>
+					<input type="file" name="image" accept="image/*">
+					<input type="file" name="video" accept="video/*">
+					<button>Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="footer"> &copy; iRepoter <script>document.write(new Date().getFullYear());</script> | All Rights Reserved</div>
+	<script>
+	function menuFunction() {
+		var nav = document.getElementById("myTopnav");
+		if (nav.className === "topnav") {
+			nav.className += " responsive";
+		} else {
+			nav.className = "topnav";
+		}
+	}
+	</script>
+	</body>
+</html>

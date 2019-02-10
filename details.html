@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>iReporter | Incident Details</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/index.js"></script>
+	</head>
+	<body>
+
+	<div class="header">
+		<h1 align="center" style="h1">iReporter</h1>
+		<div class="topnav" id="myTopnav">
+			<a href="home.html">Home</a>
+			<a href="redflag.html">RedFlag</a>
+			<a href="interventions.html">Interventions</a>
+			<a href="profile.html">Profile</a>
+			<a href="details.html" class="active">Details</a>
+			<a href="index.html">Logout</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</div>
+
+	<div class="page">
+		<div class="main">
+			<h2>Incident Report</h2>
+			<p id="type">Incident Type</p>
+			<p id="id">Incident Id</p>
+			<p id="title">Kisoro District Land Slide</p>
+			<p id="comment">
+				Over 1,000 households have been destroyed and 2, 000 people displaced
+				from their houses in five sub counties of Kisoro district from landslides
+				and floods that have hit the area. The major sub counties affected included
+				Nyarubuye, Kanaba, Murora, Nyabwishenya and Busanza.
+				This rainfall that was characterized by severe strong wind and hail stones
+				left two secondary schools, over 50 families a church and many others
+				affected in the above mentioned sub counties.<button><a href="edit.html">Edit Comment</a></button>
+			</p>
+            
+            <!-- Photo Grid -->
+            <h2>Images</h2>
+            <div class="row"> 
+              <div class="column">
+              <a target="_blank" href="images/1.jpg">
+                <img src="images/1.jpg" style="width:100%" scr="/images/1.jpg">
+              </a>
+              </div>
+              <div class="column">
+              <a target="_blank" href="images/2.jpg">
+                <img src="images/2.jpg" style="width:100%" scr="/images/2.jpg">
+              </a>
+              </div>
+              <div class="column">
+              <a target="_blank" href="images/3.jpg">
+                <img src="images/3.jpg" style="width:100%" scr="/images/3.jpg">
+              </a>
+              </div>
+              <div class="column">
+              <a target="_blank" href="images/4.jpg">
+                <img src="images/4.jpg" style="width:100%" scr="/images/4.jpg">
+              </a>
+              </div>
+            </div>
+		</div>
+
+		<div class="right">
+			<h2>Repoter</h2>
+                <p  id="createdby">Anonymous</p>
+
+			<h2>Status</h2>
+                <p  id="status">Draft</p>
+
+			<h2>Location<button><a href="edit.html">Edit Location</a></button></h2>
+                <p id="location">Kisoro</p>
+
+			<h2>Date reported</h2>
+                <p id="createdon">Thu, 07 Feb 2019 00:00:00 GMT</p>
+
+		</div>
+	</div>
+
+
+	<div class="footer"> &copy; iRepoter <script>document.write(new Date().getFullYear());</script> | All Rights Reserved</div>
+		</body>
+</html>
