@@ -3,7 +3,7 @@ const url = 'https://irepoter-v3.herokuapp.com/api/v2/auth/signup';
 
 
 // Sign Up
-const signUp = document.getElementById('signup').addEventListener('click', async(event) => {
+const signUp = document.getElementById('signup').addEventListener('submit', async(event) => {
     event.preventDefault();
     let username = document.getElementById("username").value
     let firstname = document.getElementById("firstname").value
