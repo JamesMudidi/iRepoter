@@ -17,7 +17,7 @@ Corruption is a huge bane to Africa’s development. African countries must develo
 
 <h2>Demo</h2>
 <p>The demo can be viewed from here</p>
-<p><a href="https://jamesmudidi.github.io/iReporter/">iReporter</a></p>
+<p><a href="https://jamesmudidi.github.io/iRepoter/">iReporter</a></p>
 
 <h2>Contributors</h2>
 <p><a href="https://github.com/JamesMudidi" rel="nofollow">James Mudidi</a></p>
