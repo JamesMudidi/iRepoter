@@ -1,4 +1,4 @@
-Corruption is a huge bane to Africa’s development. African countries must develop novel and localised solutions that will curb this menace, hence the birth of iReporter. iReporter enables any/every citizen to bring any form of corruption to the notice of appropriate authorities and the general public. Users can also report on things that needs government intervention
+Corruption is a huge bane to Africaâ€™s development. African countries must develop novel and localised solutions that will curb this menace, hence the birth of iReporter. iReporter enables any/every citizen to bring any form of corruption to the notice of appropriate authorities and the general public. Users can also report on things that needs government intervention
 
 <h2>Features:</h2>
 <p>Users can create an account and log in.</p>
@@ -17,7 +17,7 @@ Corruption is a huge bane to Africa’s development. African countries must develo
 
 <h2>Demo</h2>
 <p>The demo can be viewed from here</p>
-<p><a href="https://jamesmudidi.github.io/iRepoter/</a></p>
+<p><a href="https://jamesmudidi.github.io/iRepoter/">iReporter</a></p>
 
 <h2>Contributors</h2>
 <p><a href="https://github.com/JamesMudidi" rel="nofollow">James Mudidi</a></p>
