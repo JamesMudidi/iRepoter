@@ -15,11 +15,47 @@
 				<form class="login-form">
 					<input type="email" id="email" placeholder="Email" required=""/>
 					<input type="password" id="password" placeholder="Password" required=""/>
-					<button id="login">login</button>
+					<button  id="login">Login</button>
 					<br>
 					<p class="message">Not registered? <a href="register.html">Create an account Here</a></p>
 				</form>
 			</div>
 		</div>
+		
+    <script>
+		const url = 'http://127.0.0.1:5000/api/v2/auth/login';
+
+		document.getElementById('login')
+		.addEventListener('click', login);
+		
+		function login(event){
+		event.preventDefault();
+		let email = document.getElementById('email').value;
+		let password = document.getElementById('password').value;
+
+		fetch(url, {
+		method: 'POST',
+		headers: {"Accept":"application/json", "Content-type":"application/json", "Access-Control-Allow-Origin": "*"},
+		body: JSON.stringify({
+		email: email,
+		password: password})
+		})
+		.then(function (response){
+		if (response.status === 200){
+		localStorage.setItem('access_token', response.access_token);
+		window.location.href = 'home.html';
+		}
+		return response.json();
+		})
+		.then(function (response){
+		if (response.status === 400){
+		alert("Please fill out all the fields correctly");}
+        else{alert(response.message);}
+		})
+		.catch((err) => console.log(err))
+		}
+	</script>
+
+		
 	</body>
 </html>

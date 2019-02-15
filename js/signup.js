@@ -1,5 +1,5 @@
-const url = 'https://irepoter-v3.herokuapp.com/api/v2/auth/signup';
-// const url = 'https://localhost:5000/api/v2/auth/signup';
+// const url = 'https://irepoter-v3.herokuapp.com/api/v2/auth/signup';
+const url = 'https://localhost:5000/api/v2/auth/signup';
 
 
 // Sign Up
