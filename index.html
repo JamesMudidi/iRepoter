@@ -23,6 +23,7 @@
 		</div>
 		
     <script>
+		const url = 'https://irepoter-v3.herokuapp.com/api/v2/auth/login';
 		const url = 'http://127.0.0.1:5000/api/v2/auth/login';
 
 		document.getElementById('login')
@@ -42,8 +43,8 @@
 		})
 		.then(function (response){
 		if (response.status === 200){
-		localStorage.setItem('access_token', response.access_token);
-		window.location.href = 'home.html';
+		window.localStorage.setItem('access_token', response.access_token);
+		window.location.href = 'profile.html';
 		}
 		return response.json();
 		})

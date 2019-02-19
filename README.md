@@ -19,6 +19,12 @@ Corruption is a huge bane to Africa’s development. African countries must develo
 <p>The demo can be viewed from here</p>
 <p><a href="https://jamesmudidi.github.io/iRepoter/">iReporter</a></p>
 
+<h2>Testing</h2>
+<p>This App can be tested by going to this link <a href="https://jamesmudidi.github.io/iRepoter/">iReporter</a></p>
+<p>Navigate throuh the links to create an account</p>
+<p>After creating an account you will be logged in</p>
+<p>Your credentials are saved incase you want to login again</p>
+
 <h2>Contributors</h2>
 <p><a href="https://github.com/JamesMudidi" rel="nofollow">James Mudidi</a></p>
 

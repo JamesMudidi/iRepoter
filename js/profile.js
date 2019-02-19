@@ -1,14 +1,23 @@
-const baseUrl = 'https://irepoter-v3.herokuapp.com/';
-const token = localStorage.getItem('user_token');
-
-
-// Profile Data
-const populateProfile = () => {
-    const user= JSON.parse(localStorage.getItem('user'));
-
-    document.getElementById("username").innerHTML = user.username;
-    document.getElementById("email").innerHTML = user.email;
-    document.getElementById("phonenumber").innerHTML = user.phoneNumber;
-}
-
-window.onload( populateProfile());
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+	const url = 'https://irepoter-v3.herokuapp.com/api/v2/users';
+	//const url = 'http://127.0.0.1:5000/api/v2/users';
+	
+	let session = window.localStorage.getItem("access_token")
+	fetch(url, {
+	mode: 'cors',
+    headers: {
+      "content-Type": "application/json", "Authorization": session
+    }
+    })
+    .then((response) => response.json())
+    .then(response => {
+    console.log(response)
+    })
+	
