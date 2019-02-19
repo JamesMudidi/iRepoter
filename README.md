@@ -1,5 +1,6 @@
 Corruption is a huge bane to Africa’s development. African countries must develop novel and localised solutions that will curb this menace, hence the birth of iReporter. iReporter enables any/every citizen to bring any form of corruption to the notice of appropriate authorities and the general public. Users can also report on things that needs government intervention
 
+
 <h2>Features:</h2>
 <p>Users can create an account and log in.</p>
 <p>Users can create a red-flag record (An incident linked to corruption).</p>
@@ -17,7 +18,13 @@ Corruption is a huge bane to Africa’s development. African countries must develo
 
 <h2>Demo</h2>
 <p>The demo can be viewed from here</p>
-<p><a href="https://jamesmudidi.github.io/iRepoter/</a></p>
+<p><a href="https://jamesmudidi.github.io/iRepoter/">iReporter</a></p>
+
+<h2>Testing</h2>
+<p>This App can be tested by going to this link <a href="https://jamesmudidi.github.io/iRepoter/">iReporter</a></p>
+<p>Navigate throuh the links to create an account</p>
+<p>After creating an account you will be logged in</p>
+<p>Your credentials are saved incase you want to login again</p>
 
 <h2>Contributors</h2>
 <p><a href="https://github.com/JamesMudidi" rel="nofollow">James Mudidi</a></p>
